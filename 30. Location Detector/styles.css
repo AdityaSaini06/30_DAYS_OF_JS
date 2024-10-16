@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(#252930 50% , #5372F0 50%);
+    min-height: 100vh;
+}
+
+#wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16.5%;
+}
+
+button{
+    font-size: 50px;
+    padding: 25px 46px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #5372F0;
+}

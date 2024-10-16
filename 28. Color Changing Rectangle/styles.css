@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#center{
+    width: 400px;
+    height: 200px;
+    border : 1px solid black;
+    top: 35%;
+    left: 37.5%;
+    position: absolute;
+}

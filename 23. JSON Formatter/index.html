@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Formatter</title>
+    <link rel="stylesheet" href = 'styles.css'></link>
+    <link rel="stylesheet" href = '../homestyles.css'></link>
+    </head>
+    <body>
+        <nav>
+        <a href="/" aria-current="page">Home</a>
+        </nav> 
+        <div class="container">
+            <textarea class="large-area large-area--input" placeholder="Enter your JSON here...">
+                {"name" : "Adi"}
+            </textarea>
+            <div class="controls">
+                <button class="controls_button controls_button--format">Format</button>
+                <button class="controls_button controls_button--minify">Minify</button>
+            </div>
+            <textarea readonly class="large-area large-area--output" placeholder="Your JSON will appear here..."></textarea>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
